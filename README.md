@@ -1,12 +1,24 @@
-# Hangman-terminal-game
-An Hangman game to play on the terminal.
+# Hangman Terminal Game
 
-By running HangMan.java, this Java program implements the classic HangMan game, where one player thinks of a word, and another player attempts to guess the word letter by letter.
-The game requires player 1 to write the word and then the program outputs a certain number of lines, avoiding player 2 to read the original word.
-As incorrect guesses accumulate, the number of lives decrements by 1 (default value is 4). 
-The goal is for the guessing player to decipher the hidden word before the lives counter reaches 0.
- 
-Since this is a program developed for practicing my skills and preparing for an exam, and i wanted to practice with array of reference type, 
-the word is encrypted as an array of Strings each of length 1, initially set to be all "-".
+Hangman-terminal-game is a Java program that implements the classic Hangman game to play on the terminal. It provides an interactive experience where one player thinks of a word, and another player attempts to guess the word letter by letter. Was developed as a practice project to enhance programming skills and prepare for an exam. It was specifically designed to utilize arrays of reference types as part of the learning process.
 
-@author Andrea Visani
+## How to Play
+
+To play the game, simply compile and run the `HangMan.java` file. The program will prompt the first player to input a word, which will be hidden from the second player. The second player will then begin guessing letters of the word. The program will display a certain number of dashes representing each letter of the word, and as the second player makes correct guesses, the corresponding dashes will be replaced with the guessed letters.
+
+## Features
+
+- **Classic Hangman Gameplay:** Enjoy the traditional Hangman gameplay where one player guesses a word based on letters provided by another player.
+- **Limited Attempts:** The guessing player has a limited number of attempts (lives) to guess the word correctly. Each incorrect guess decrements the number of lives by 1.
+- **Word Encryption:** The word to be guessed is encrypted as an array of strings, each initially set to "-", allowing the guessing player to uncover the word gradually.
+
+## Author
+
+This Hangman Terminal Game was developed by Andrea Visani.
+
+
+## License
+
+See the [LICENSE](LICENSE) file for more details.
+
+Enjoy playing Hangman in the terminal and have fun deciphering the hidden word!
